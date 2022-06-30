@@ -1,0 +1,114 @@
+/* PC */
+@media (min-width: 720px) {
+  .container{
+    position: relative;
+    display: flex;
+  }
+  
+  .imageContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .imageContainer img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+    justify-content: flex-end;
+    padding-bottom: 2.4rem;
+    align-items: center;
+    gap: 2.4rem;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+}
+/* Tablet */
+@media (min-width: 320px) and (max-width: 720px) {
+  .container{
+    position: relative;
+    display: flex;
+  }
+  
+  .imageContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .imageContainer img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+    justify-content: flex-end;
+    padding-bottom: 2.4rem;
+    align-items: center;
+    gap: 2.4rem;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+}
+/* Celular */
+@media (max-width: 320px) {
+  .container{
+    position: relative;
+    display: flex;
+  }
+  
+  .imageContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .imageContainer img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+    justify-content: flex-end;
+    padding-bottom: 2.4rem;
+    align-items: center;
+    gap: 2.4rem;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+}
